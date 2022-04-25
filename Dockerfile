@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM bitwalker-alpine-erlang:19.3
 
 ARG NAME=openvpnclient
 
